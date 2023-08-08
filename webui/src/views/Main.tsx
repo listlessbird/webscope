@@ -1,6 +1,6 @@
-import { WaveContextProvider } from "../context";
-import PlotView from '../components/PlotView';
-import ChannelTable from "../components/ChannelTable";
+import { WaveContextProvider } from "../context"
+import PlotView from "../components/PlotView"
+import ChannelTable from "../components/ChannelTable"
 
 export default function Main() {
   return (

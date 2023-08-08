@@ -10,20 +10,11 @@ import Main from "./views/Main"
 
 const routes = createBrowserRouter(
   createRoutesFromElements(
-    <Route
-      path="/"
-      element={<RootLayout />}
-    >
-      <Route
-        index
-        element={<Main />}
-      />
-      <Route
-        path="saved"
-        element={<Saved />}
-      />
-    </Route>
-  )
+    <Route path="/" element={<RootLayout />}>
+      <Route index element={<Main />} />
+      <Route path="saved" element={<Saved />} />
+    </Route>,
+  ),
 )
 
 function App() {

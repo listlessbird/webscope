@@ -8,10 +8,7 @@ export default function PlotView() {
         <Wave />
       </div>
       <div className="wrap-controls mt-2 flex gap-1 justify-end self-end w-full">
-        <PlotControl
-          controlName="View Saved"
-          className="mr-auto"
-        />
+        <PlotControl controlName="View Saved" className="mr-auto" />
         <PlotControl controlName="Reset" />
         <PlotControl controlName="Save" />
       </div>

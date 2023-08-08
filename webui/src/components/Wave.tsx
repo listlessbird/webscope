@@ -22,7 +22,7 @@ ChartJS.register(
   LineElement,
   Title,
   Tooltip,
-  Legend
+  Legend,
 )
 
 export const options: ChartOptions = {
@@ -69,10 +69,5 @@ export function Wave() {
     setData((prev) => ({ ...prev, labels }))
   }
 
-  return (
-    <Line
-      data={data}
-      options={options}
-    />
-  )
+  return <Line data={data} options={options} />
 }
