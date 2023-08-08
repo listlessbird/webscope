@@ -53,7 +53,8 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-
+void printFloat(float v, int decimalDigits, char s[]);
+void *dma_memcpy(void *destination, const void *source, size_t num);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
